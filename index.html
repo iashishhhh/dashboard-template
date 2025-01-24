@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Header</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+        <div class="row m-0 p-0">
+            <div class="col-lg-2 col-md-12 col-sm-12 pt-4 ps-3 h-auto m-0 p-0"
+                style="background-color: #F1F2F7; padding-left: 10px;">
+                <div class="logo ">
+                    <img src="img/Logo.png" class="" alt="">
+                </div>
+                <div class="menu p-0 mt-5">
+                    <p class="p-0 m-0 text-muted">MENU</p>
+                    <ul class="list p-0">
+                        <li class="list-group-item d-flex align-items-center ">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span class="ps-3">Dashboard</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-cart-shopping"></i> <span class="ps-3">Food Order</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-book"></i> <span class="ps-3">Manage Menu</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-message"></i> <span class="ps-3">Customer Review</span>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="menu p-0 mt-3">
+                    <p class="p-0 m-0 text-muted">OTHERS</p>
+                    <ul class="list p-0">
+                        <li class="list-group-item d-flex align-items-center ">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="ps-3">Settings</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-credit-card"></i> <span class="ps-3">Payment</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-user"></i> <span class="ps-3">Accounts</span>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <i class="fa-solid fa-circle-info"></i>
+                            <span class="ps-3">Help</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- second col -->
+            <div class="col-lg-10 pt-3 m-0 p-0" style="margin-left: 10px;">
+                <div class="container-fluid">
+                    <div class="d-flex align-items-center justify-content-between py-2 ">
+                        <div class="flex-grow-1 me-3">
+                            <input type="text" class="form-control w-75 m-0" placeholder="Search" aria-label="Search">
+                        </div>
+
+                        <div class="d-flex align-items-center">
+                            <div class="me-2">
+                                <img src="img/user-image-with-black-background.png" alt="Profile" class="rounded-circle"
+                                    style="width: 40px; height: 40px;">
+                            </div>
+                            <span class="me-3">Delicious Burger</span>
+
+                            <div>
+                                <i class="fa-solid fa-bell" style="font-size: 1.5rem; position: relative;">
+                                    <span
+                                        class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle"
+                                        style="width: 10px; height: 10px;"></span>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                    <h4 class="mb-4 dashBoard mt-3 ">Dashboard</h4>
+                    <div class="row g-4 gap-0">
+                        <!-- Revenue Chart -->
+                        <div class="col-lg-8 col-md-12 col-sm-12 border-end border-bottom">
+                            <div class="card  pe-4 border-0 h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div>
+                                        <h5 class="mb-0 font14">Revenue</h5>
+                                        <h2 class="text-primary font20 text-black pt-2">IDR 7.852.000</h2>
+                                        <small class="text-success">⬆ 2.1% <span class="text-muted">vs last
+                                                week</span></small>
+                                    </div>
+                                    <a href="" class="text-decoration-none">
+                                        <button class="buttons shadow ps-3 pe-3 pb-1 pt-1">View Report</button>
+                                    </a>
+                                </div>
+                                <p class="text-muted">Sales from 1-12 Dec, 2020</p>
+                                <div class="chart-container">
+                                    <img src="img/Chart1.png" class="w-100" alt="">
+                                </div>
+                                <div class="mt-3">
+                                    <span class="badge bg-primary me-2">Last 6 days</span>
+                                    <span class="badge bg-light text-dark">Last Week</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Order Time Chart -->
+                        <div class="col-lg-4 col-md-12 col-sm-12 border-bottom">
+                            <div class="card  p-3 border-0 h-100">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <h5 class="mb-0">Order Time</h5>
+                                    <a href="" class="text-decoration-none">
+                                        <button class="buttons shadow ps-3 pe-3 pb-1 pt-1">View Report</button>
+                                    </a>
+                                </div>
+                                <p class="text-muted">From 1-6 Dec, 2020</p>
+                                <div class="chart-container mt-5 pt-3">
+                                    <img src="img/Chart1.png" class="w-100 " alt="">
+                                </div>
+                                <ul class="mt-5 pt-5 list-unstyled d-flex  justify-content-between">
+                                    <li><span class="badge bg-primary me-2">•</span>Afternoon - 40%</li>
+                                    <li><span class="badge bg-secondary me-2">•</span>Evening - 32%</li>
+                                    <li><span class="badge bg-light text-dark me-2">•</span>Morning - 28%</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row p-0 m-0 d-flex align-items-stretch">
+                            <div class="col-lg-4 col-sm-12 col-md-12 border-end p-0 m-0">
+                                <div class="content px-3 py-3">
+                                    <h2 class="font14">Your Rating</h2>
+                                    <p class="contentx">Lorem ipsum dolor sit amet, consectetur</p>
+                                    <div class="position-relative ">
+                                        <div class="circle circle-large ">
+                                            <div class="d-flex  flex-column">
+                                                <span>85%</span>
+                                                <small class="contentxt">Food Taste</small>
+                                            </div>
+                                        </div>
+
+                                        <div class="circle circle-medium">
+                                            <div class="d-flex  flex-column">
+                                                <span>85%</span>
+                                                <small class="contentxt">Hygiene</small>
+                                            </div>
+                                        </div>
+                                        <div class="circle circle-small">
+                                            <div class="d-flex  flex-column">
+                                                <span>92%</span>
+                                                <small class="contentxt">Packaging</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 border-end p-0 m-0">
+                                <div class="content px-3 pb-0 pt-3">
+                                    <h2 class="font14">Most Ordered Food</h2>
+                                    <p class="contentx">Adipiscing elit, sed do eiusmod tempor</p>
+                                   
+                                    <div
+                                        class="d-flex align-items-center justify-content-between border-bottom pb-0 mb-0 ">
+                                        <div class="d-flex align-items-center">
+                                            <div class="pt-3 justify-content-start d-flex"> <img src="img/Group1.png"
+                                                    alt="Fresh Salad Bowl" class="me-1 ">
+                                            </div>
+                                            <span class="contentxt">Fresh Salad Bowl</span>
+                                        </div>
+                                        <span class="contentxt">IDR 45.000</span>
+                                    </div>
+
+                                    <!-- Menu Item 2 -->
+                                    <!-- <div class="d-flex align-items-center justify-content-between border-bottom ">
+                                        <div class="d-flex align-items-center">
+                                            <div class="pt-3 justify-content-start d-flex"> <img src="img/Group2.png"
+                                                    alt="Fresh Salad Bowl" class=" me-1 ">
+                                            </div> <span class="contentxt">Chicken Noodles</span>
+                                        </div>
+                                        <span class="contentxt">IDR 45.000</span>
+                                    </div> -->
+
+                                    <!-- Menu Item 3 -->
+                                    <div class="d-flex align-items-center justify-content-between border-bottom ">
+                                        <div class="d-flex align-items-center p-0 m-0">
+                                            <div class="pt-3 justify-content-start d-flex"> <img src="img/Group3.png"
+                                                    alt="Fresh Salad Bowl" class=" me-1 ">
+                                            </div> <span class="contentxt">Smoothie Fruits</span>
+                                        </div>
+                                        <span class="contentxt">IDR 45.000</span>
+                                    </div>
+
+                                    <!-- Menu Item 4 -->
+                                    <div class="d-flex align-items-center justify-content-between ">
+                                        <div class="d-flex align-items-center">
+                                            <div class="pt-3 justify-content-start d-flex"> <img src="img/Group4.png"
+                                                    alt="Fresh Salad Bowl" class=" me-1   ">
+                                            </div> <span class="contentxt">Hot Chicken Wings</span>
+                                        </div>
+                                        <span class="contentxt">IDR 45.000</span>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="col-lg-4 border-end p-0 m-0">
+                                <div class="content px-3 py-3">
+                                    <h2 class="font14">Order</h2>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <div>
+                                            <h2 class=" font20">2,568</h2>
+                                            <p class="text-danger mb-0"><small>▼ 2.1% <span class="text-muted">vs last
+                                                        week</span> </small></p>
+                                        </div>
+                                        <a href="" class="text-decoration-none">
+                                            <button class="buttons shadow ps-3 pe-3 pb-1 pt-1">View Report</button>
+                                        </a>
+                                    </div>
+                                    <p class="text-muted">Sales from 1-6 Dec, 2020</p>
+                                    <div class="chart-container p-0 m-0">
+                                        <img src="img/line3.png" class="w-100  " alt="">
+                                    </div>
+                                    <p class="text-muted "><small>● Last 6 days</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
